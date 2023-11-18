@@ -1,0 +1,4 @@
+RewriteEngine on
+
+RewriteRule ^Home ./src/index/index.php [NC,L]
+RewriteRule ^Home ./src/index/index.php [NC,L]
