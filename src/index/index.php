@@ -3,5 +3,5 @@
 <!-- HTML CODE -->
 
 <div class="root">
-
+Index page works !!
 </div>
