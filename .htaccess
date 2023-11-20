@@ -9,4 +9,5 @@ RewriteEngine on
 # Over
 
 # Do not modify these rule and do add rule below this
+RewriteRule ^$ ./src/index/index.php [NC,L]
 RewriteRule ^index ./src/index/index.php [NC,L]
