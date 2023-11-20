@@ -1,4 +1,12 @@
 RewriteEngine on
 
-RewriteRule ^Home ./src/index/index.php [NC,L]
-RewriteRule ^Home ./src/index/index.php [NC,L]
+# Write your custome rules here : start
+
+
+
+
+
+# Over
+
+# Do not modify these rule and do add rule below this
+RewriteRule ^index ./src/index/index.php [NC,L]

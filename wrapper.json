@@ -1,0 +1,8 @@
+{
+    "title" : "Core wrapper",
+    "version" : "0.0.1",
+    "dependencies" : {
+        "php" : "8.2.0",
+        "vrc" : "0.0.1"
+    }
+}
