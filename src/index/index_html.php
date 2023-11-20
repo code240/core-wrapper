@@ -2,6 +2,6 @@
 
 <!-- HTML CODE -->
 
-<div class="root">
-Index page works !!
+<div class="home">
+    Index page works !!
 </div>

@@ -1,23 +1,14 @@
 <?php
+    include './../../configs/config.php';
     
 
-    $_TITLE = "Document";
-    $_TEMPLATE = "index";
-        
+
     
-    include './../../prerequisite/framework.php';
+    include './../../.vrc_modules/core_wrapper/wrapper.php';
     include './../../configs/cdn.php';
     include './../../configs/database.php';
 
 
-    function setTitle($title){
-        global $_TITLE;
-        $_TITLE = $title;
-    }
-    function setTemplate($file){
-        global $_TEMPLATE;
-        $_TEMPLATE = $file;
-    }
 
     
 ?>
