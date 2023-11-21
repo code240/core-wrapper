@@ -27,12 +27,17 @@ function setKeywords(array $keys){
     }
 }
 
+$_CSS_CDN = "";
+$_JS_CDN = "";
 
-
+foreach($_CDN_LINKS['css'] as $link){
+    $_CSS_CDN .= "<link rel='stylesheet' href='".$link."'>";
+}
+foreach($_CDN_LINKS['js'] as $link){
+    $_JS_CDN .= "<script src='".$link."'></script>";
+}
 
 
 
 
 ?>
-
-<script src="./.vrc_modules/core_wrapper/wrapper.js"></script>
