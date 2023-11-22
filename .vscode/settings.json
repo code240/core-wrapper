@@ -1,0 +1,13 @@
+{
+    "search.exclude": {
+        "**/node_modules": true,
+        "**/.vrc_modules": true
+    },
+    "files.exclude": {
+        "**/.vscode": true
+    },
+    "files.watcherExclude": {
+        "**/.vrc_modules/**": true
+    },
+    "search.useIgnoreFiles": false
+}

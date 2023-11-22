@@ -1,5 +1,11 @@
 <?php
 
+
+include './../../.vrc_modules/core_wrapper/__database__.php';
+include './../../.vrc_modules/core_wrapper/__logs__.php';
+
+date_default_timezone_set(_TIMEZONE);
+
 $_TITLE = "Document";
 $_TEMPLATE = "index";
 $_KEYWORDS = "";

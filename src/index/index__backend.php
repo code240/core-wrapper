@@ -16,7 +16,3 @@ setTitle("Index Page");
 
 /*  ---------------- YOUR BACKEND CODE HERE ---------- */ 
 
-
-
-
-
